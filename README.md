@@ -1,6 +1,6 @@
 # Omarchy Grimdark Solarized Theme
 
-Warhammer 40k inspired Solarized Dark theme for Omarchy Linux. This is a grim, low-noise take on Solarized that keeps the palette faithful while pushing the atmosphere toward gothic sci-fi, with custom Waybar, Walker, and SwayOSD styling plus a hand-picked set of free 4k Warhammer 40k wallpapers. The intent is focused readability: strong contrast where it matters, soft edges where it does not, and a tone that stays comfortable through long sessions.
+Warhammer 40k inspired Solarized Dark theme for Omarchy Linux. This is a grim, low-noise take on Solarized that keeps the palette faithful while pushing the atmosphere toward gothic sci-fi, with custom Waybar, Walker, and SwayOSD styling plus a hand-picked set of free 4k Warhammer 40k wallpapers. 
 
 Omarchy Grimdark Solarized Theme preview
 
