@@ -29,6 +29,21 @@ Wallpapers live in `backgrounds/`. Apply them in your wallpaper tool of choice a
 - Adjust bar spacing, fonts, and modules in `waybar.css` to fit your layout.
 - Swap terminal presets by editing `alacritty.toml`, `ghostty.conf`, or `kitty.conf` before installing.
 
+## Theme previews
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="preview.png" alt="Omarchy Grimdark Solarized preview 1" width="420"><br>
+      Preview 1
+    </td>
+    <td align="center">
+      <img src="preview2.png" alt="Omarchy Grimdark Solarized preview 2" width="420"><br>
+      Preview 2
+    </td>
+  </tr>
+</table>
+
 ## Background previews
 
 <table>
