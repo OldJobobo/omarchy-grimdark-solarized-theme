@@ -1,0 +1,80 @@
+@define-color base00 #002b36;
+@define-color base01 #073642;
+@define-color base02 #586e75;
+@define-color base03 #657b83;
+@define-color base04 #839496;
+@define-color base05 #93a1a1;
+@define-color base06 #eee8d5;
+@define-color base07 #fdf6e3;
+@define-color yellow #b58900;
+@define-color orange #cb4b16;
+@define-color red #dc322f;
+@define-color magenta #d33682;
+@define-color violet #6c71c4;
+@define-color blue #268bd2;
+@define-color cyan #2aa198;
+@define-color green #859900;
+
+@define-color text @base02;
+@define-color selected-text @magenta;
+@define-color base @base00;
+@define-color border @base01;
+@define-color foreground @base04;
+@define-color background @base00;
+@define-color selection @base02;
+
+window {
+   background-color: transparent;
+   background-image: radial-gradient(circle at center,
+         rgba(0, 30, 73, 0.35) 0%,
+         rgba(0, 8, 23, 0.65) 60%,
+         rgba(0, 4, 12, 0.85) 100%);
+   backdrop-filter: blur(1.5px);
+   border: none;
+   border-width: 0;
+   border-color: @border;
+   padding: 0;
+   /* outline: none;  */
+   box-shadow: none;
+ }
+
+ /* Transparent Search Bar */
+.search-container {
+    background-color: @base;
+    padding: 6px 10px;
+}
+
+window .box-wrapper {
+    background-color: @background;
+    border-radius: 12px;
+    color: @text;
+    border: 1px solid @cyan;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
+}
+
+entry {
+    background-color: @base01;
+    color: @text;
+    border: 1px solid @border;
+    border-radius: 12px;
+    padding: 10px 10px; /* add inner space so placeholder/text isn't flush */
+}
+
+entry selection {
+    background-color: @selection;
+    color: @selected-text;
+}
+
+list,
+list row,
+list row label {
+    background-color: @background;
+    color: @text;
+}
+
+list row:selected,
+list row:selected label {
+    background-color: @selection;
+    color: @selected-text;
+}
+

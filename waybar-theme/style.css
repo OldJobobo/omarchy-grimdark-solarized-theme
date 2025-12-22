@@ -1,0 +1,276 @@
+@import "../omarchy/current/theme/waybar.css";
+
+@define-color background #002b36;
+@define-color surface #073642;
+@define-color overlay #586e75;
+@define-color ember #268bd2;
+@define-color ember-flare #cb4b16;
+@define-color ember-soft #b58900;
+@define-color text #1f8f86;
+@define-color muted #1f8f86;
+@define-color subtle #073642;
+
+* {
+  background: transparent;
+  color: @text;
+  border: none;
+  min-height: 0;
+  font-family: 'Iosevka Nerd Font';
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+}
+
+#waybar > .horizontal {
+  margin: 0 20px 0 20px;
+  padding: 0;
+}
+
+window#waybar {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  background: alpha(@background, 0.8);
+  border-radius: 0 0 10px 10px;
+  border: 1px solid alpha(@text, 0.4);
+  border-top: none;
+  padding: 4px 7px;
+  margin: 0 3px;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.25);
+}
+
+.modules-center {
+  border-color: alpha(@text, 0.4);
+}
+
+#workspaces {
+  background: transparent;
+  margin: 1px 0px;
+  padding: 1px 0px;
+}
+
+#workspaces button {
+  padding: 3px 6px;
+  margin: 1px 2px;
+  border-radius: 9px;
+  background: @background;
+  color: alpha(@text, 0.55);
+  border: 1px solid alpha(@text, 0.4);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.15s ease-in-out;
+}
+
+#workspaces button label {
+  color: alpha(@text, 0.55);
+}
+
+#workspaces button.active,
+#workspaces button.focused {
+  background: @background;
+  color: @text;
+  border-color: alpha(@text, 0.4);
+  text-shadow: none;
+}
+
+#workspaces button.active label,
+#workspaces button.focused label {
+  color: @text;
+}
+
+#workspaces button:hover {
+  color: @text;
+  border-color: alpha(@text, 0.4);
+}
+
+#group-center-right {
+  background: alpha(@background, 0.8);
+  border-radius: 0 0 10px 10px;
+  border: 1px solid alpha(@text, 0.4);
+  border-top: none;
+  margin-left: 6px;
+  padding: 2px 4px;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.25);
+}
+
+#group-center-right #idle_inhibitor {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 2px 6px;
+}
+
+#workspaces button.empty {
+  opacity: 0.55;
+}
+
+#tray,
+#window,
+#mpris,
+#cpu,
+#clock,
+#battery,
+#network,
+#memory,
+#backlight,
+#bluetooth,
+#pulseaudio,
+#custom-weather,
+#custom-update,
+#idle_inhibitor,
+#custom-omarchy,
+#custom-screenrecording-indicator,
+#custom-updatespacman {
+  min-width: 14px;
+  margin: 4px 4px;
+  padding: 5px 8px;
+  border-radius: 8px;
+  background: @background;
+  border: 1px solid alpha(@text, 0.4);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.28);
+}
+
+#custom-expand-icon {
+  margin-right: 10px;
+}
+
+#custom-omarchy {
+  background: @background;
+  color: @text;
+  border-color: alpha(@text, 0.4);
+  text-shadow: none;
+}
+
+#custom-update,
+#custom-updatespacman {
+  background: @background;
+  color: @text;
+  border-color: alpha(@text, 0.4);
+}
+
+#clock {
+  background: @background;
+  border: 1px solid alpha(@text, 0.4);
+  color: @text;
+  letter-spacing: 0.5px;
+}
+
+#idle_inhibitor {
+  color: @text;
+  min-width: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#idle_inhibitor.activated {
+  background: @background;
+  color: @text;
+  border-color: alpha(@text, 0.4);
+}
+
+#idle_inhibitor.deactivated {
+  background: @background;
+}
+
+#tray {
+  background: @background;
+  color: @text;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+  color: @text;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  color: @text;
+}
+
+#network {
+  color: @text;
+  border-color: alpha(@text, 0.4);
+}
+
+#pulseaudio {
+  background: @background;
+  color: @text;
+  border-color: alpha(@text, 0.4);
+}
+
+#backlight {
+  background: @background;
+  color: @text;
+}
+
+#battery {
+  background: @background;
+  color: @text;
+}
+
+#battery.warning,
+#battery.critical {
+  background: @background;
+  color: @text;
+  border-color: alpha(@text, 0.4);
+}
+
+#cpu,
+#memory {
+  background: @background;
+}
+
+#mpris {
+  background: @background;
+  color: @text;
+  animation: none;
+}
+
+#window {
+  background: @background;
+  color: @text;
+}
+
+#custom-screenrecording-indicator {
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: transparent;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: @text;
+  animation-name: ember-blink;
+  animation-duration: 0.65s;
+}
+
+tooltip {
+  padding: 6px 8px;
+  background: @background;
+  border: 1px solid alpha(@text, 0.4);
+  border-radius: 8px;
+  font-size: 11px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+tooltip label {
+  color: @text;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+@keyframes ember-blink {
+  to {
+    color: @background;
+  }
+}
