@@ -2,6 +2,9 @@
 
 Warhammer 40k inspired Solarized Dark theme for Omarchy Linux. This is a grim, low-noise take on Solarized that keeps the palette faithful while pushing the atmosphere toward gothic sci-fi, with custom Waybar, Walker, and SwayOSD styling plus a hand-picked set of free 4k Warhammer 40k wallpapers. Built for Omarchy's theme installer, this repo ships all configs and assets needed to apply the look in one go.
 
+![Omarchy Grimdark Solarized preview 1](preview.png)
+![Omarchy Grimdark Solarized preview 2](preview2.png)
+
 ## What's included
 
 - Hyprland: dimmed inactive windows, zero borders, custom opacity rules (`hyprland.conf`)
@@ -28,21 +31,6 @@ Wallpapers live in `backgrounds/`. Apply them in your wallpaper tool of choice a
 - Tweak window opacity in `hyprland.conf` if you want more or less dimming.
 - Adjust bar spacing, fonts, and modules in `waybar.css` to fit your layout.
 - Swap terminal presets by editing `alacritty.toml`, `ghostty.conf`, or `kitty.conf` before installing.
-
-## Theme previews
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="preview.png" alt="Omarchy Grimdark Solarized preview 1" width="420"><br>
-      Preview 1
-    </td>
-    <td align="center">
-      <img src="preview2.png" alt="Omarchy Grimdark Solarized preview 2" width="420"><br>
-      Preview 2
-    </td>
-  </tr>
-</table>
 
 ## Background previews
 
