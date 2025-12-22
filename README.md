@@ -6,14 +6,7 @@ Omarchy Grimdark Solarized Theme preview
 
 ## What's included
 
-- Hyprland: dimmed inactive windows, zero borders, custom opacity rules (`hyprland.conf`)
-- Hyprlock colors for ring and text (`hyprlock.conf`)
-- Waybar styling with a custom grimdark layout (`waybar.css`)
-- Terminals: Alacritty (`alacritty.toml`), Ghostty (`ghostty.conf`), Kitty (`kitty.conf`)
-- Shell/UI tools: btop (`btop.theme`), Wofi (`wofi.css`)
-- Notifications and helpers: Mako (`mako.ini`), SwayOSD (`swayosd.css`), Walker launcher (`walker.css`)
-- Neovim colorscheme snippet (`neovim.lua`)
-- Icon theme pointer for Yaru-purple (`icons.theme`)
+
 
 ## Quick start
 
