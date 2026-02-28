@@ -1,12 +1,13 @@
 return {
 	{
-		"altercation/vim-colors-solarized",
+		"Tsuzat/NeoSolarized.nvim",
+		name = "NeoSolarized.nvim",
 		priority = 1000,
 	},
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "solarized",
+			colorscheme = "NeoSolarized",
 		},
 	},
 }
