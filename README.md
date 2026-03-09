@@ -34,50 +34,11 @@ Wallpapers live in `backgrounds/`. Apply them in your wallpaper tool of choice a
 
 ## Background previews
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="backgrounds/battlefield-melee-ruckus.jpg" alt="Battlefield Melee Ruckus" width="260"><br>
-      Battlefield Melee Ruckus
-    </td>
-    <td align="center">
-      <img src="backgrounds/chaos-war-red-moon.png" alt="Chaos War Red Moon" width="260"><br>
-      Chaos War Red Moon
-    </td>
-    <td align="center">
-      <img src="backgrounds/city-siege-firestorm.png" alt="City Siege Firestorm" width="260"><br>
-      City Siege Firestorm
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="backgrounds/cliff-approach-gothic-city.jpg" alt="Cliff Approach Gothic City" width="260"><br>
-      Cliff Approach Gothic City
-    </td>
-    <td align="center">
-      <img src="backgrounds/knight-titan-sunset.jpeg" alt="Knight Titan Sunset" width="260"><br>
-      Knight Titan Sunset
-    </td>
-    <td align="center">
-      <img src="backgrounds/ruined-cathedral-blue-assault.jpg" alt="Ruined Cathedral Blue Assault" width="260"><br>
-      Ruined Cathedral Blue Assault
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="backgrounds/techmarine-sanctum.jpg" alt="Techmarine Sanctum" width="260"><br>
-      Techmarine Sanctum
-    </td>
-    <td align="center">
-      <img src="backgrounds/tyranids-encircle-marine.jpg" alt="Tyranids Encircle Marine" width="260"><br>
-      Tyranids Encircle Marine
-    </td>
-    <td align="center">
-      <img src="backgrounds/ultramarine-hero-battlefield.jpg" alt="Ultramarine Hero Battlefield" width="260"><br>
-      Ultramarine Hero Battlefield
-    </td>
-  </tr>
-</table>
+| | | |
+| --- | --- | --- |
+| ![](backgrounds/0-chaos-titan.jpg) | ![](backgrounds/1-red-moon-war.png) | ![](backgrounds/2-firestorm-siege.png) |
+| ![](backgrounds/3-gothic-assault.jpg) | ![](backgrounds/4-ultramarine-terminal.jpeg) | ![](backgrounds/5-cathedral-ambush.jpg) |
+| ![](backgrounds/6-tyranid-encircled.jpg) | ![](backgrounds/7-crusade-melee.jpg) | ![](backgrounds/8-bloodangel-hero.jpg) |
 
 ## Notes
 
