@@ -1,14 +1,14 @@
 @import "../omarchy/current/theme/waybar.css";
 
-@define-color background #002b36;
-@define-color surface #073642;
-@define-color overlay #586e75;
-@define-color ember #268bd2;
-@define-color ember-flare #cb4b16;
-@define-color ember-soft #b58900;
-@define-color text #1f8f86;
-@define-color muted #1f8f86;
-@define-color subtle #073642;
+@define-color background #002d38;
+@define-color surface #093946;
+@define-color overlay #5b7279;
+@define-color ember #2b90d8;
+@define-color ember-flare #d56500;
+@define-color ember-soft #ac8300;
+@define-color text #8faaab;
+@define-color muted #5b7279;
+@define-color subtle #093946;
 
 * {
   background: transparent;

@@ -111,9 +111,9 @@
     "calendar": {
       "mode": "mouth",
       "format": {
-        "mouth": "<span color='#b58900'><b>{}</b></span>",
-        "weekdays": "<span color='#2aa198'><b>{}</b></span>",
-        "today": "<span color='#dc322f'><b>{}</b></span>"
+        "mouth": "<span color='#ac8300'><b>{}</b></span>",
+        "weekdays": "<span color='#259d94'><b>{}</b></span>",
+        "today": "<span color='#f23749'><b>{}</b></span>"
       }
     },
     "on-click-right": "~/.local/share/omarchy/bin/omarchy-cmd-tzupdate"

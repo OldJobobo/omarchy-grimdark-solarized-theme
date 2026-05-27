@@ -1,20 +1,20 @@
 /* Solarized Dark palette */
-@define-color base03 #002b36;
-@define-color base02 #073642;
-@define-color base01 #586e75;
-@define-color base00 #657b83;
-@define-color base0  #839496;
-@define-color base1  #93a1a1;
-@define-color base2  #eee8d5;
-@define-color base3  #fdf6e3;
-@define-color yellow  #b58900;
-@define-color orange  #cb4b16;
-@define-color red     #dc322f;
-@define-color magenta #d33682;
-@define-color violet  #6c71c4;
-@define-color blue    #268bd2;
-@define-color cyan    #2aa198;
-@define-color green   #859900;
+@define-color base03 #002d38;
+@define-color base02 #093946;
+@define-color base01 #5b7279;
+@define-color base00 #657377;
+@define-color base0  #98a8a8;
+@define-color base1  #8faaab;
+@define-color base2  #f1e9d2;
+@define-color base3  #fbf7ef;
+@define-color yellow  #ac8300;
+@define-color orange  #d56500;
+@define-color red     #f23749;
+@define-color magenta #dd459d;
+@define-color violet  #7d80d1;
+@define-color blue    #2b90d8;
+@define-color cyan    #259d94;
+@define-color green   #819500;
 
 @define-color background @base03;
 @define-color foreground @base0;
