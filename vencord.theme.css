@@ -1,29 +1,93 @@
 /**
-* @name base16 Discord
-* @author @bypass_
-* @version 0.1.0
-* @description Built using Aether and Pywal
-* @source https://github.com/imbypass/base16-Discord
-**/
+ * @name Grimdark OKSolar Midnight
+ * @author OldJobobo
+ * @version 0.1.0
+ * @description Omarchy Grimdark OKSolar colors on refact0r's Midnight Discord theme.
+ * @website https://github.com/refact0r/midnight-discord
+ * @source https://github.com/refact0r/midnight-discord/blob/master/themes/midnight.theme.css
+ **/
 
-/* import the parent */
-@import url('https://imbypass.github.io/base16-discord/omarchy-discord.theme.css');
+@import url("https://refact0r.github.io/midnight-discord/build/midnight.css");
+
+body {
+    --font: "figtree";
+    --code-font: "";
+    --gap: 12px;
+    --divider-thickness: 4px;
+    --border-thickness: 1px;
+    --animations: on;
+    --top-bar-button-position: titlebar;
+    --top-bar-title-position: off;
+    --custom-window-controls: on;
+    --custom-chatbar: off;
+    --small-user-panel: on;
+}
 
 :root {
-    --color00: #002d38;
-    --color01: #093946;
-    --color02: #5b7279;
-    --color03: #657377;
-    --color04: #98a8a8;
-    --color05: #8faaab;
-    --color06: #f1e9d2;
-    --color07: #fbf7ef;
-    --color08: #f23749;
-    --color09: #d56500;
-    --color10: #ac8300;
-    --color11: #819500;
-    --color12: #259d94;
-    --color13: #2b90d8;
-    --color14: #dd459d;
-    --color15: #7d80d1;
+    --colors: on;
+
+    --text-0: #002d38;
+    --text-1: #fbf7ef;
+    --text-2: #f1e9d2;
+    --text-3: #8faaab;
+    --text-4: #98a8a8;
+    --text-5: #5b7279;
+
+    --bg-1: #5b7279;
+    --bg-2: #093946;
+    --bg-3: #093946;
+    --bg-4: #002d38;
+    --hover: color-mix(in srgb, #5b7279 24%, transparent);
+    --active: color-mix(in srgb, #5b7279 34%, transparent);
+    --active-2: color-mix(in srgb, #5b7279 46%, transparent);
+    --message-hover: color-mix(in srgb, #093946 70%, transparent);
+
+    --accent-1: #2b90d8;
+    --accent-2: #2b90d8;
+    --accent-3: #2b90d8;
+    --accent-4: #259d94;
+    --accent-5: #7d80d1;
+    --accent-new: #d56500;
+
+    --mention: linear-gradient(to right, color-mix(in srgb, #2b90d8 18%, transparent) 40%, transparent);
+    --mention-hover: linear-gradient(to right, color-mix(in srgb, #2b90d8 25%, transparent) 40%, transparent);
+    --reply: linear-gradient(to right, color-mix(in srgb, #8faaab 16%, transparent) 40%, transparent);
+    --reply-hover: linear-gradient(to right, color-mix(in srgb, #8faaab 22%, transparent) 40%, transparent);
+
+    --online: #819500;
+    --dnd: #f23749;
+    --idle: #ac8300;
+    --streaming: #7d80d1;
+    --offline: #5b7279;
+
+    --border-light: color-mix(in srgb, #5b7279 26%, transparent);
+    --border: color-mix(in srgb, #5b7279 38%, transparent);
+    --border-hover: color-mix(in srgb, #2b90d8 42%, transparent);
+    --button-border: color-mix(in srgb, #98a8a8 18%, transparent);
+
+    --red-1: #f23749;
+    --red-2: #f23749;
+    --red-3: #f23749;
+    --red-4: #d56500;
+    --red-5: #d56500;
+    --green-1: #819500;
+    --green-2: #819500;
+    --green-3: #259d94;
+    --green-4: #259d94;
+    --green-5: #5b7279;
+    --blue-1: #98a8a8;
+    --blue-2: #2b90d8;
+    --blue-3: #2b90d8;
+    --blue-4: #259d94;
+    --blue-5: #7d80d1;
+    --yellow-1: #f1e9d2;
+    --yellow-2: #ac8300;
+    --yellow-3: #ac8300;
+    --yellow-4: #d56500;
+    --yellow-5: #657377;
+    --purple-1: #dd459d;
+    --purple-2: #7d80d1;
+    --purple-3: #7d80d1;
+    --purple-4: #dd459d;
+    --purple-5: #657377;
 }
